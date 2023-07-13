@@ -4,7 +4,7 @@
  *Desc:'prints the size of various types on computer'
  *return: Always 0 = Success, otherwise EOF = error
 */
-int main (void)/*main requires no input*/
+int main(void)      /*main requires no input*/
 {
 char a;
 int b;

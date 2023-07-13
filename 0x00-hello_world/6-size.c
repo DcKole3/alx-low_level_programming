@@ -5,7 +5,7 @@
  * it is compiled and ran on.
  *return: Always 0 = Success, otherwise EOF = error
 */
-int main(void)*      /*main requires no input*/
+int main(void)      /*main requires no input*/
 {
 char a;
 int b;

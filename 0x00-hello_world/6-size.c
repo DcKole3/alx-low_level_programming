@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- *main  - code entry point
- *Desc:'prints the size of various types on computer
+ * main  - code entry point
+ * Desc:'prints the size of various types on computer
  * it is compiled and ran on.
- *return: Always 0 = Success, otherwise EOF = error
-*/
-/**main requires no input*/
+ * Return:0 = Success, otherwise EOF = error
+ */
 int main(void)
 {
 char a;
@@ -18,5 +17,5 @@ printf("Size of an %s: %lu byte(s)\n", "int", (unsigned long)sizeof(b));
 printf("Size of a %s: %lu byte(s)\n", "long int", (unsigned long)sizeof(c));
 printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf("Size of a %s: %lu byte(s)\n", "float", (unsigned long)sizeof(e));
- Return:0; /*Allows for result to stdout as main type is int*/
+ return(0); /*Allows for result to stdout as main type is int*/
 }

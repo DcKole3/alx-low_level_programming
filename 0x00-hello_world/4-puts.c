@@ -1,7 +1,8 @@
-#include <stdio.h>
+
+0;276;0c#include <stdio.h>
 /**
  * main  - code entry point
- *return: Always 0 = Success, otherwise EOF = error
+ * Return: 0 = Success, otherwise EOF = error
 */
 int main(void)
 {  

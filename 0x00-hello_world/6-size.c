@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main  - code entry point
- *Description: 'prints the size of various types on the computer it is compiled and run on'
+ *main  - code entry point
+ *Desc:'prints the size of various types on computer'
  *return: Always 0 = Success, otherwise EOF = error
 */
 int main(void)/*main requires no input*/
 {
-char a;
-int b;
-long int c;
-long long int d;
-float e;
+  char a;
+  int b;
+  long int c;
+  long long int d;
+  float e;
 printf("Size of a %s: %lu byte(s)\n", "char", (unsigned long)sizeof(a));
 printf("Size of an %s: %lu byte(s)\n", "int", (unsigned long)sizeof(b));
 printf("Size of a %s: %lu byte(s)\n", "long int", (unsigned long)sizeof(c));

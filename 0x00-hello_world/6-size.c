@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- *@main  - code entry point
+ *main  - code entry point
  *Desc:'prints the size of various types on computer
  * it is compiled and ran on.
  *return: Always 0 = Success, otherwise EOF = error
 */
-int main(void)      /*main requires no input*/
+/**main requires no input*/
+int main(void)
 {
 char a;
 int b;

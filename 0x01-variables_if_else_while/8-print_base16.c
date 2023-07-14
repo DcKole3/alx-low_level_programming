@@ -7,14 +7,18 @@
  */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
+int i = 0;
+unsigned char a = '0';
+for (i = 0; i < 10; i++)
 {
-if (a == 'e' || a == 'q')
-{
-continue;
-}
 putchar(a);
+a++
+}
+a = '1';
+for (i = 0; i < 6; i++)
+{
+putchar('0' + a);
+a++
 }
 putchar('\n');
 return (0);

@@ -18,8 +18,9 @@ This folder contains scripts written using emacs for Ubuntu 20.04 LTS at exactly
 <li>The number in base 2 is stored in the environment variable BINARY</li> 
 <li>The script displays the number in base 10, followed by a new line</li>
 </ul></li>
-#Requirements
-##General
+# Requirements
+
+## General
 <ul>
 <li> Allowed editors: vi, vim, emacs</li>
 <li> All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options <code>-Wall -Werror -Wextra -pedantic -std=gnu89</code></li>

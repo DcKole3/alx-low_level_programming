@@ -1,5 +1,5 @@
 > # 0x02. C - Functions, nested loops
-
+11;rgb:0000/0000/0000
 This folder contains scripts written using emacs for Ubuntu 20.04 LTS at exactly 2 lines long to perform the following tasks:
 <ol>
 <li> <code>0-alias</code>: reates an alias with Name:<code>ls</code> and Value: <code>rm *</code></li>
@@ -18,6 +18,7 @@ This folder contains scripts written using emacs for Ubuntu 20.04 LTS at exactly
 <li>The number in base 2 is stored in the environment variable BINARY</li> 
 <li>The script displays the number in base 10, followed by a new line</li>
 </ul></li>
+
 # Requirements
 
 ## General

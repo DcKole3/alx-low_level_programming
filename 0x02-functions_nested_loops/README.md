@@ -1,27 +1,27 @@
 > # 0x02. C - Functions, nested loops
-11;rgb:0000/0000/0000
 This folder contains scripts written using emacs for Ubuntu 20.04 LTS at exactly 2 lines long to perform the following tasks:
 <ol>
-<li> <code>0-alias</code>: reates an alias with Name:<code>ls</code> and Value: <code>rm *</code></li>
-<li> <code>1-hello_you </code>: Prints hello user, where user is the current Linux user.</li>
-<li> <code>2-path </code>: Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.</li>
-<li> <code>3-paths </code>: Counts the number of directories in the PATH.</li>
-<li> <code>4-global_variables </code>: Lists environment variables.</li>
-<li> <code>5-local_variables </code>: Lists all local variables and environment variables, and functions.</li>
-<li> <code>6-create_local_variable </code>: Creates a new local variable with Name: BEST & Value: School</li>
-<li> <code>7-create_global_variable </code>: Creates a new global variable with Name: BEST and Value: School</li>
-<li> <code>8-true_knowledge </code>: Prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.</li>
-<li> <code>9-divide_and_rule </code>: Prints the result of POWER divided by DIVIDE, followed by a new line. POWER and DIVIDE are environment variables</li>
-<li> <code>10-love_exponent_breath </code>: Displays the result of BREATH to the power LOVE. BREATH and LOVE are environment variables. The script displays the result, followed by a new line.</li>
-<li> <code>11-binary_to_decimal </code>: Converts a number from base 2 to base 10.
+<li> <code>0-putchar.c</code>:prints <code>_putchar</code>, followed by a new line and returns 0 </li>
+<li> <code>1-alphabet.c</code>:  prints the alphabet, in lowercase, followed by a new line.</li>
+<li> <code>2-print_alphabet_x10.c </code>: prints 10 times the alphabet, in lowercase, followed by a new line.</li>
+<li> <code>3-islower.c </code>: function that checks for lowercase character and returns 1 if c is lowercase; returns 0 otherwise.</li>
+<li> <code>4-isalpha.c </code>: checks for alphabetic  character and returns 1 if c is a letter, lowercase or uppercase; returns 0 otherwise..</li>
+<li> <code>5-sign.c</code>: prints the sign of a number and returns 1 and prints + if n is greater than zero; returns 0 and prints 0 if n is zero; returns -1 and prints - if n is less than zero.</li>
+<li> <code>6-abs.c</code>: computes the absolute value of an integer.</li>
+<li> <code>7-print_last_digit.c</code>: prints the last digit of a number.</li>
+<li> <code>8-24_hours.c</code>: prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.</li>
+<li> <code>9-times_table.c</code>: prints the 9 times table, starting with 0.</li>
+<li> <code>10-add.c </code>: adds two integers and returns the result.</li>
+<li> <code>11-print_to_98.c </code>: prints all natural numbers from n to 98, followed by a new line.
 <ul>
-<li>The number in base 2 is stored in the environment variable BINARY</li> 
-<li>The script displays the number in base 10, followed by a new line</li>
+<li>Numbers are separated by a comma, followed by a space and printed in order</li> 
+<li>The first printed number has to be the number passed to the function and the last printed number should be 98</li>
+<li>Allowed to use the standard library</li>
 </ul></li>
 
 # Requirements
 
-## General
+> General
 <ul>
 <li> Allowed editors: vi, vim, emacs</li>
 <li> All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options <code>-Wall -Werror -Wextra -pedantic -std=gnu89</code></li>

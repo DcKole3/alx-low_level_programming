@@ -11,6 +11,7 @@ char c;
 int d = 0;
 if (_strlen(str) % 2 != 0)
 {
+d += 1;
 for (i = (_strlen(str) + d) / 2; i < _strlen(str); i++)
 {
 c = str[i];

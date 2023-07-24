@@ -10,7 +10,7 @@ int i;
 char c;
 if (_strlen(str) % 2 != 0)
 {
-for (i = (_strlen(str) - 1) / 2; str[i] != '\0'; i++)
+for (i = (_strlen(str) - 1) / 2; i < _strlen(str); i++)
 {
 c = str[i];
 _putchar(c);
@@ -18,7 +18,7 @@ _putchar(c);
 }
 else
 {
-for (i = _strlen(str) / 2; str[i] != '\0'; i++)
+for (i = _strlen(str) / 2; i < _strlen(str); i++)
 {
 c = str[i];
 _putchar(c);

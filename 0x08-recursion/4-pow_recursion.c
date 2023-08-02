@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion
+ * _pow_recursion - performs exponent of x to y
  * @x: value to exponent
  * @y: value of power
  * Return: returns exponent or -1 (error)
@@ -13,7 +13,7 @@ return (-1);
 }
 if (y > 0)
 {
-return (x *_pow_recursion(x, y - 1));
+return (x * _pow_recursion(x, y - 1));
 }
 return (1);
 }

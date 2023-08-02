@@ -1,0 +1,32 @@
+#include "main.h"
+/**
+ * natural_sqrt_helper: checks for sqrt
+ *
+ */
+int e = 0.000001;
+int natural_sqrt_helper(int n, int x, int y, int e)
+    {
+      if (x - y <= e)
+	{
+	  return (x);
+	}
+      else
+	{
+        x = (x + y) / 2;
+        y = n / x;
+        return natural_sqrt_helper(n, x, y, e);
+	}
+    }
+/**
+ * _sqrt_recursion - returns the natural square root
+ * @n: number to find square root
+ * Return: natural square root or -1
+ */
+int _sqrt_recursion(int n)
+{
+  if (natural_sqrt_helper(n, n, 1, e) == n && n != 1)
+    {
+      return (-1);
+    }
+  return natural_sqrt_helper(n, n, 1, e);
+}

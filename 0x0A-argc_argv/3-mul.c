@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-#define UNUSED(v) (void)(v)
 /**
  * main - function entry point
  * @argc: argument counter

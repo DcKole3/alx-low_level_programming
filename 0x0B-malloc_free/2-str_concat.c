@@ -10,8 +10,8 @@
 char *str_concat(char *s1, char *s2)
 {
 int i;
-int s1_len;
-int s2_len;
+int s1_len = 0;
+int s2_len = 0;
 char *arr;
 if (s1 == NULL)
 s1 = " ";

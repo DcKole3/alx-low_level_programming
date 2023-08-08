@@ -17,21 +17,18 @@ if (s1 == NULL)
 s1 = " ";
 if (s2 == NULL)
 s2 = " ";
-  
 while (s1[i] != '\0')
 {
 i++;
-s1_len = i + 1;
+s1_len++;
 }
 i = 0;
 while (s2[i] != '\0')
 {
 i++;
-s2_len = i + 1;
+s2_len++;
 }
-arr = malloc(sizeof(char) * s1_len + s2_len - 1);
-s1_len -= 1;
-s2_len -= 1;
+arr = malloc(sizeof(char) * s1_len + s2_len + 1);
 if (arr == NULL)
 return (NULL);
 for (i = 0; i < s1_len; i++)

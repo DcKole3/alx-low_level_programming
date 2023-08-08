@@ -20,6 +20,8 @@ if (str == NULL)
 {
 return (NULL);
 }
+if (arr ==NULL)
+return (NULL);
 for (i = 0; i < j; i++)
 {
 arr[i] = str[i];

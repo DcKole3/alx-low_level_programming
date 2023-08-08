@@ -14,9 +14,9 @@ int s1_len = 0;
 int s2_len = 0;
 char *arr;
 if (s1 == NULL)
-s1 = " ";
+s1 = "";
 if (s2 == NULL)
-s2 = " ";
+s2 = "";
 i = 0;
 while (s1[i] != '\0')
 {

@@ -28,7 +28,7 @@ while (s2[i] != '\0')
 i++;
 s2_len++;
 }
-arr = malloc(sizeof(char) * s1_len + s2_len + 1);
+arr = malloc(sizeof(char) * (s1_len + s2_len + 1));
 if (arr == NULL)
 return (NULL);
 for (i = 0; i < s1_len; i++)

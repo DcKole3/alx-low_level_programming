@@ -16,14 +16,14 @@ if (size == 0)
 {
 return (NULL);
 }
+if (arr == NULL)
+return (NULL);
 if (size != 0)
 {
 for (i = 0; i < size; i++)
 {
 arr[i] = c;
 }
-return (arr);
 }
-else if (arr == NULL)
-return (NULL);
+return (arr);
 }

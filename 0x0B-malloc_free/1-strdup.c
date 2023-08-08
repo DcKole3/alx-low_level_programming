@@ -2,8 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strdup - allocate space in memory = size of
- * copied str
+ * _strdup - allocate memory = size of str
  * @str: parameter string to copy
  */
 char *_strdup(char *str)

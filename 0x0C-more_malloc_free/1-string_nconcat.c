@@ -43,5 +43,5 @@ for (i = 0; i < n; i++)
  str[i + s1_l] = s2[i];
 }
 str[s1_l + i] = '\0';
-return (str);
+return (str;
 }

@@ -8,7 +8,8 @@
  * @n: first n bytes of s2 to concat
  * Return: pointer to new allocated mem of concat
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2,
+		     unsigned int n)
 {
 unsigned int i = 0;
 unsigned int s1_l = 0;
@@ -26,7 +27,9 @@ i++;
 s2_l++;
 }
 if (n >= s2_l)
+{
 n = s2_l;
+}
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)

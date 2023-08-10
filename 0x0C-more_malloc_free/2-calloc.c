@@ -14,7 +14,7 @@ char *arr;
 unsigned int i;
 if (nmemb == 0 || size == 0)
 return (NULL);
-arr = malloc(nmemb * size);
+arr = (char*)malloc(nmemb * size);
 if (arr == NULL)
 return (NULL);
 for (i = 0; i < nmemb * size; i++)

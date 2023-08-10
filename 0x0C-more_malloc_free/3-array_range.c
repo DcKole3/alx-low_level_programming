@@ -21,7 +21,7 @@ arr_l++;
 }
 if (min > max)
 return (NULL);
-arr = (int*)malloc(sizeof(int) * arr_l);
+arr = malloc(sizeof(int) * arr_l);
 if (arr == NULL)
 return (NULL);
 for (i = 0; min <= max; i++)

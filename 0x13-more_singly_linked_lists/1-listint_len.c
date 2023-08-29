@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * listint_len - gets length of linked list
  * @h: struct listint_t type

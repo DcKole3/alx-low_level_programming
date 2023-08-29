@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * print_listint - prints int of linked list
  * @h: struct listint_t type

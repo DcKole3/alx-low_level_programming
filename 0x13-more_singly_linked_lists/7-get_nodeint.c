@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * get_nodeint_at_index - returns the nth node of a list
  * @head: lead node of linked list
@@ -16,6 +17,8 @@ len++;
 tmp = tmp->next;
 }
 if (len != index)
+{
 return (NULL);
+}
 return (tmp);
 }

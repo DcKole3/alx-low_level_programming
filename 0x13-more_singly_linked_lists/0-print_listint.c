@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * print_listint - prints int of linked list
+ * print_listint - prints int
+ * of linked list
  * @h: struct listint_t type
  * Return: number of nodes
  */

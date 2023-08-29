@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * sum_listint - gets sum of linked list int
  * @head: head node of linked list

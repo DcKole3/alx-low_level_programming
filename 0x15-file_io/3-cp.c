@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - program to copy content
+ * main - program to copy
  * @ac: argument count
  * @av: pointer to array of arguments
  * Return: int value 0
